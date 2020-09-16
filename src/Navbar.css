@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232f3e;
+  color: white;
+}
+
+.navbar__locationParent {
+  display: flex;
+}
+
+.navbar__address {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar > nav {
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0px 10px;
+  color: white;
+  font-size: 13px;
+}
+
+.navbar__addressOne {
+  font-size: 10px;
+}
+
+.navbar__addressTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.navbar__shoppingImg {
+  width: 400px;
+}
